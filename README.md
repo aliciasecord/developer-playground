@@ -11,15 +11,14 @@ Planning happens weekly, every Sunday: pick the upcoming week's builds, and log 
 
 <!-- Planned each Sunday. One line per build, day number + name. -->
 
-- [ ] Day 001 — Landing page (header, nav, main, footer) in light mode. All but main should be served by app.js.
-- [ ] Day 002 — Dark Mode for the landing page.
-- [ ] Day 003 — Card style for landing page. 
-- [ ] Day 004 — Masonry layout for landing page.
-- [ ] Day 005 — Print-stylesheet for landing page.
-- [ ] Day 006 — Simple FAQ widget for landing page.
-- [ ] Day 007 — Rock. Paper. Scissors. Lizard. Spock.
-- [ ] Day 008 — 404 error page for project.
-- [ ] Day 009 — Color palette picker.
+- [ ] Day 001 — Project Boilerplate. Write the landing page (header, nav, main, footer) in light mode. All but main should be served by app.js. Also build the template files for the rest of the project. Main on the landing page will be completed later this week. (TYPE: Webpage)
+- [ ] Day 002 — Dark Mode for the project. (TYPE: CSS Theme)
+- [ ] Day 003 — Main for the landing page: Card style and masonry layout. Make a second page describing the design and dev choices. (TYPE: Webpage) 
+- [ ] Day 004 — Print-stylesheet for project. (TYPE: CSS Theme)
+- [ ] Day 005 — Main for the landing page: Simple FAQ widget. Make a second page describing the design and dev choices. (TYPE: Styleguide)
+- [ ] Day 007 — Rock. Paper. Scissors. Lizard. Spock. (TYPE: Game)
+- [ ] Day 008 — 404 error page for project. (TYPE: Webpage)
+- [ ] Day 009 — Color palette picker. (TYPE: Utility)
 
 ## Builds so far
 

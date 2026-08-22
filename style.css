@@ -1,7 +1,10 @@
-@import url(modern-normalize.css);
-@layer theme, reset;
+@layer patterns, utilities, theme, tokens, reset;
 
-@layer theme {
+@import url(modern-normalize.css) layer(reset);
+
+@import url(theme.css) layer(theme);
+
+@layer tokens {
 
 :root {
   --bg: #FDF7ED;              /* FLORAL */
@@ -22,6 +25,11 @@
   --heading-weight: 900;
   --body-weight: 400;
   --data-spacing: 0.25em;
+  --border: var(--accent) 2px solid;
 }
 
 }
+
+@layer utilities {}
+
+@layer patterns {}

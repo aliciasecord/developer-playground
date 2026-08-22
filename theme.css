@@ -1,0 +1,222 @@
+/* Document */
+html {
+}
+
+body {
+    background: var(--bg);
+
+}
+
+/* Sectioning */
+header {
+    background: var(--bg);
+    border-bottom: var(--border);
+    
+}
+
+nav {
+}
+
+main {
+    --grid-size: 2rem; 
+    background: radial-gradient(var(--bg-subtle) 0.25rem, transparent 0.25rem);
+    background-size: var(--grid-size) var(--grid-size);
+    background-position: center top;
+    width: 100%;
+}
+
+footer {
+}
+
+section {
+}
+
+article {
+}
+
+aside {
+}
+
+/* Headings */
+h1 {
+}
+
+h2 {
+}
+
+h3 {
+}
+
+h4 {
+}
+
+h5 {
+}
+
+h6 {
+}
+
+/* Text content */
+p {
+}
+
+blockquote {
+}
+
+pre {
+}
+
+ul {
+}
+
+ol {
+}
+
+li {
+}
+
+dl {
+}
+
+dt {
+}
+
+dd {
+}
+
+hr {
+}
+
+/* Inline text */
+a {
+}
+
+strong {
+}
+
+em {
+}
+
+small {
+}
+
+s {
+}
+
+code {
+}
+
+kbd {
+}
+
+samp {
+}
+
+mark {
+}
+
+sub {
+}
+
+sup {
+}
+
+abbr {
+}
+
+cite {
+}
+
+q {
+}
+
+time {
+}
+
+/* Forms */
+form {
+}
+
+label {
+}
+
+input {
+}
+
+textarea {
+}
+
+select {
+}
+
+option {
+}
+
+button {
+}
+
+fieldset {
+}
+
+legend {
+}
+
+/* Tables */
+table {
+}
+
+caption {
+}
+
+thead {
+}
+
+tbody {
+}
+
+tfoot {
+}
+
+tr {
+}
+
+th {
+}
+
+td {
+}
+
+/* Media */
+img {
+}
+
+svg {
+}
+
+video {
+}
+
+audio {
+}
+
+picture {
+}
+
+iframe {
+}
+
+figure {
+}
+
+figcaption {
+}
+
+/* Interactive */
+details {
+}
+
+summary {
+}
+
+dialog {
+}
