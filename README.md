@@ -11,13 +11,15 @@ Planning happens weekly, every Sunday: pick the upcoming week's builds, and log 
 
 <!-- Planned each Sunday. One line per build, day number + name. -->
 
-- [ ] Day 00X — 
-- [ ] Day 00X — 
-- [ ] Day 00X — 
-- [ ] Day 00X — 
-- [ ] Day 00X — 
-- [ ] Day 00X — 
-- [ ] Day 00X — 
+- [ ] Day 001 — Landing page (header, nav, main, footer) in light mode. All but main should be served by app.js.
+- [ ] Day 002 — Dark Mode for the landing page.
+- [ ] Day 003 — Card style for landing page. 
+- [ ] Day 004 — Masonry layout for landing page.
+- [ ] Day 005 — Print-stylesheet for landing page.
+- [ ] Day 006 — Simple FAQ widget for landing page.
+- [ ] Day 007 — Rock. Paper. Scissors. Lizard. Spock.
+- [ ] Day 008 — 404 error page for project.
+- [ ] Day 009 — Color palette picker.
 
 ## Builds so far
 
@@ -25,7 +27,7 @@ Planning happens weekly, every Sunday: pick the upcoming week's builds, and log 
 
 | Day | Build | Notes | Link | 
 | --- | --- | --- |
-| 001 | Project landing page | | |
+| 001 | Project landing page | JS based injection of header, nav, footer for use on future pages. There will also be a project page where I write about the decisions made instead of the landing page info. | [LANDING PAGE](/) or [PROJECT PAGE](/001-landing-page) |
 
 ## Structure
 

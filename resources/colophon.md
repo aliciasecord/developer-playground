@@ -26,8 +26,8 @@ Dark Mode:
   Text: #FDF7ED (floral)
   Muted Text: #999999 (gray)
   Inverse Text: #333333 (graphite)
-  Accent Color: #FFC0CB (pink)
-  Accent Hover: #FF8599 (cotton candy)
+  Accent Color: #FFADBB (cherry blossom)
+  Accent Hover: #FF99AA (cotton candy)
 
 ## Built With
 - HTML
@@ -39,4 +39,13 @@ No framework, no build step, no package manager. Hosted on GitHub Pages, at a su
 ## Process
 Each project is written by hand first. Claude Code reviews the code afterward catching bugs, suggesting cleanups, and explaining anything that didn't make sense the first time. It doesn't write the first draft.
 
-## Tutorials Referenced
+## Code Referenced
+
+### MODERN NORMALIZE
+https://github.com/sindresorhus
+
+### HTML Boilerplate
+https://www.matuzo.at/blog/html-boilerplate/
+
+
+
