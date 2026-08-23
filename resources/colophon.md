@@ -47,5 +47,8 @@ https://github.com/sindresorhus
 ### HTML Boilerplate
 https://www.matuzo.at/blog/html-boilerplate/
 
-
-
+## Claude Generated
+- The ideas in the curriculum.md file.
+- The initial README file. Edited heavily.  
+- A CSS file with every HTML element in it and ready to be styled
+- The functions for injecting the header, nav, footer into the HTML 

@@ -11,7 +11,8 @@ Planning happens weekly, every Sunday: pick the upcoming week's builds, and log 
 
 <!-- Planned each Sunday. One line per build, day number + name. -->
 
-- [ ] Day 001 — Project Boilerplate. Write the landing page (header, nav, main, footer) in light mode. All but main should be served by app.js. Also build the template files for the rest of the project. Main on the landing page will be completed later this week. (TYPE: Webpage)
+- [ ] Day 001 — Project Boilerplate. Write the landing page (header, nav, main, footer) in light mode. All but main should be served by app.js. Also build the template files for the rest of the project. Main on the landing page will be completed later this week. (TYPE: Webpage) - IN PROGRESS: currently formatting the landing page in theme.css.
+
 - [ ] Day 002 — Dark Mode for the project. (TYPE: CSS Theme)
 - [ ] Day 003 — Main for the landing page: Card style and masonry layout. Make a second page describing the design and dev choices. (TYPE: Webpage) 
 - [ ] Day 004 — Print-stylesheet for project. (TYPE: CSS Theme)

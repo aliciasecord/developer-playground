@@ -1,47 +1,108 @@
 /* Document */
-html {
-}
+html {}
 
 body {
     background: var(--bg);
+    color: var(--text);
 
 }
 
 /* Sectioning */
 header {
-    background: var(--bg);
+    background: linear-gradient(var(--accent), var(--bg));
     border-bottom: var(--border);
-    
+    height: 10rem;
+    display: flex; 
+    align-items: flex-end;
 }
 
 nav {
+    display: flex;
+    align-items: center; 
+    justify-content: space-between;
+    width: 100%;
+    height: 100%;
+    margin: 0 auto;
+    font-family: var(--mono);
+    text-transform: uppercase;
+    letter-spacing: 0.1em;
+}
+
+nav ul {
+    display: flex;
+    list-style-type: none;
+}
+nav ul li {
+    display: inline-block;
+}
+
+nav :is(a.brand, a.brand:visited) {
+    text-decoration: none;
+    color: var(--text);
+    font-weight: 900;
+}
+
+nav :is(a.brand:hover, a.brand:focus) {
+    color: var(--accent);
+}
+
+nav ul li :is(a, a:visited) {
+    padding: 1rem 2rem;
+    text-decoration: none;
+    color: var(--text);
+    font-weight: 700;
+}
+
+nav ul li :is(a:hover, a:focus) {
+    color: var(--accent);
+    background: linear-gradient(transparent, color-mix(in srgb, var(--accent-inverse) 10%));
 }
 
 main {
-    --grid-size: 2rem; 
-    background: radial-gradient(var(--bg-subtle) 0.25rem, transparent 0.25rem);
+    --grid-size: 4rem; 
+    background: radial-gradient(var(--accent-inverse) 1px, transparent 1px);
     background-size: var(--grid-size) var(--grid-size);
     background-position: center top;
     width: 100%;
+    margin: -4rem 0 0;
 }
 
 footer {
+    background: color-mix(in srgb, var(--accent-inverse) 10%, var(--bg));
 }
 
-section {
-}
+/*
+section {}
 
-article {
-}
+article {}
 
-aside {
+aside {}
+
+.hero {}
+*/
+
+.inner {
+    width: 100%;
+    max-width: 60rem;
+    margin: 0 auto;
+
 }
 
 /* Headings */
+h1, h2, h3, h4, h5, h6 {
+    font-family: var(--mono);
+    font-weight: 900;
+    letter-spacing: 0.125em;
+}
+
 h1 {
+    font-size: clamp(2rem, 1.301rem + 1.9417vw, 3rem);
+    text-align: center;
+    margin-top: 4rem;
 }
 
 h2 {
+    
 }
 
 h3 {
@@ -58,6 +119,7 @@ h6 {
 
 /* Text content */
 p {
+    font-family: var(--sans);
 }
 
 blockquote {
@@ -153,6 +215,9 @@ option {
 }
 
 button {
+    padding: 0.25rem 0.5rem;
+    background: none;
+    border: none;
 }
 
 fieldset {

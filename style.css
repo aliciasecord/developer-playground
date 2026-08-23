@@ -1,13 +1,12 @@
-@layer patterns, utilities, theme, tokens, reset;
-
 @import url(modern-normalize.css) layer(reset);
-
 @import url(theme.css) layer(theme);
+
+@layer patterns, theme, utilities, tokens, reset;
 
 @layer tokens {
 
 :root {
-  --bg: #FDF7ED;              /* FLORAL */
+  --bg: #FFFFFF;              /* FLORAL */
   --bg-subtle: #FDF7ED;       /* WHITE */
   --bg-inverse: #333333;      /* GRAPHITE */
   --text: #333333;            /* GRAPHITE */
@@ -16,20 +15,25 @@
   --border: #999999;          /* LIGHT GRAY */
   --accent: #592449;          /* BLACKBERRY CREAM */
   --accent-hover: #481E3B;    /* MIDNIGHT VIOLET */
+  --accent-inverse: #FFADBB;  /* CHERRY BLOSSOM */
+  --accent-inverse-hover: #FF99AA /* COTTON CANDY */
   --card-bg: #ffffff;         /* WHTIE */
   --radius: 0.75rem;
   --pill: 10rem;
-  --mono: "Recurisive", sans-serif; 
+  --mono: "Recursive", sans-serif; 
   --sans: "Public Sans", sans-serif;
   --data: "Recursive", monospace;
   --heading-weight: 900;
   --body-weight: 400;
   --data-spacing: 0.25em;
-  --border: var(--accent) 2px solid;
+  --border: var(--accent-inverse) 2px solid;
 }
 
 }
 
-@layer utilities {}
+@layer utilities {
+  .text-scale-400 {font-size: 6em;}
+
+}
 
 @layer patterns {}
