@@ -1,0 +1,24 @@
+:root {
+  --bg: #FFFFFF;                    /* FLORAL */
+  --bg-subtle: #FDF7ED;             /* WHITE */
+  --bg-inverse: #333333;            /* GRAPHITE */
+  --text: #333333;                  /* GRAPHITE */
+  --text-muted: #666666;            /* GRAY */
+  --text-inverse: #FDF7ED;         /* FLORAL */
+  --border: #999999;                /* LIGHT GRAY */
+  --accent: #592449;                /* BLACKBERRY CREAM */
+  --accent-hover: #481E3B;          /* MIDNIGHT VIOLET */
+  --accent-inverse: #FFADBB;        /* CHERRY BLOSSOM */
+  --accent-inverse-hover: #FF99AA;  /* COTTON CANDY */
+  --card-bg: #ffffff;               /* WHTIE */
+  --radius: 0.75rem;                  /* 12px */
+  --pill: 10rem;
+  --mono: "Recursive", sans-serif; 
+  --sans: "Public Sans", sans-serif;
+  --data: "Recursive", monospace;
+  --heading-weight: 900;
+  --body-weight: 400;
+  --data-spacing: 0.25em;
+  --border: var(--accent-inverse) 2px solid;
+}
+

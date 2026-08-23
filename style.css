@@ -1,39 +1,21 @@
-@import url(modern-normalize.css) layer(reset);
-@import url(theme.css) layer(theme);
+@import url(/global-styles/modern-normalize.css) layer(reset);
+@import url(/global-styles/tokens.css) layer(tokens);
+@import url(/global-styles/theme.css) layer(theme);
+@import url(/global-styles/patterns.css) layer(patterns);
+
 
 @layer patterns, theme, utilities, tokens, reset;
 
-@layer tokens {
-
-:root {
-  --bg: #FFFFFF;              /* FLORAL */
-  --bg-subtle: #FDF7ED;       /* WHITE */
-  --bg-inverse: #333333;      /* GRAPHITE */
-  --text: #333333;            /* GRAPHITE */
-  --text-muted: #666666;      /* GRAY */
-  --text-reversed: #FDF7ED;   /* FLORAL */
-  --border: #999999;          /* LIGHT GRAY */
-  --accent: #592449;          /* BLACKBERRY CREAM */
-  --accent-hover: #481E3B;    /* MIDNIGHT VIOLET */
-  --accent-inverse: #FFADBB;  /* CHERRY BLOSSOM */
-  --accent-inverse-hover: #FF99AA /* COTTON CANDY */
-  --card-bg: #ffffff;         /* WHTIE */
-  --radius: 0.75rem;
-  --pill: 10rem;
-  --mono: "Recursive", sans-serif; 
-  --sans: "Public Sans", sans-serif;
-  --data: "Recursive", monospace;
-  --heading-weight: 900;
-  --body-weight: 400;
-  --data-spacing: 0.25em;
-  --border: var(--accent-inverse) 2px solid;
-}
-
-}
-
 @layer utilities {
-  .text-scale-400 {font-size: 6em;}
+  .text-scale-400 {font-size: 4em; line-height: 1;}
+  .text-scale-600 {font-size: 6em; line-height: 1;}
+  .text-scale-800 {font-size: 8em; line-height: 1;}
 
+  .text-color-accent {color: var(--accent);}
+
+  a.btn, button.btn {
+    padding: 0.25rem 0.5rem;
+    background: none;
+    border: none;
+  }
 }
-
-@layer patterns {}

@@ -1,5 +1,5 @@
 /* Document */
-html {}
+/* html {} */
 
 body {
     background: var(--bg);
@@ -69,6 +69,8 @@ main {
 
 footer {
     background: color-mix(in srgb, var(--accent-inverse) 10%, var(--bg));
+    padding: 1rem 0;
+    text-align: center;
 }
 
 /*
@@ -85,7 +87,10 @@ aside {}
     width: 100%;
     max-width: 60rem;
     margin: 0 auto;
+}
 
+.inner.condensed {
+    max-width: 40rem;
 }
 
 /* Headings */
@@ -96,11 +101,13 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 h1 {
-    font-size: clamp(2rem, 1.301rem + 1.9417vw, 3rem);
+    font-size: 3rem;
     text-align: center;
     margin-top: 4rem;
 }
 
+
+/* 
 h2 {
     
 }
@@ -116,12 +123,14 @@ h5 {
 
 h6 {
 }
+*/
 
 /* Text content */
 p {
     font-family: var(--sans);
 }
 
+/*
 blockquote {
 }
 
@@ -146,13 +155,29 @@ dt {
 dd {
 }
 
+*/
+
 hr {
+    background: var(--accent-inverse);
 }
 
 /* Inline text */
+
+
 a {
+    color: var(--accent);
 }
 
+a:hover, a:focus {
+    color: var(--accent-hover);
+
+}
+
+a:visited {
+    color: var(--accent-hover)
+}
+
+/*
 strong {
 }
 
@@ -195,7 +220,11 @@ q {
 time {
 }
 
+*/
+
 /* Forms */
+
+/*
 form {
 }
 
@@ -214,11 +243,19 @@ select {
 option {
 }
 
+*/
+
 button {
     padding: 0.25rem 0.5rem;
     background: none;
     border: none;
 }
+
+button:hover, button:focus {
+    background-color: var(--accent-inverse)
+}
+
+/* 
 
 fieldset {
 }
@@ -226,7 +263,11 @@ fieldset {
 legend {
 }
 
+*/
+
 /* Tables */
+
+/*
 table {
 }
 
@@ -251,10 +292,14 @@ th {
 td {
 }
 
+*/
 /* Media */
 img {
+    width: 100%;
+    height: auto;
 }
 
+/* 
 svg {
 }
 
@@ -276,7 +321,11 @@ figure {
 figcaption {
 }
 
+*/
+
 /* Interactive */
+/*
+
 details {
 }
 
@@ -285,3 +334,5 @@ summary {
 
 dialog {
 }
+
+*/

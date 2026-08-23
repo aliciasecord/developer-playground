@@ -47,6 +47,12 @@ https://github.com/sindresorhus
 ### HTML Boilerplate
 https://www.matuzo.at/blog/html-boilerplate/
 
+### W3Schools
+https://www.w3schools.com/
+
+### Mozilla Developer Network
+https://developer.mozilla.org/en-US/
+
 ## Claude Generated
 - The ideas in the curriculum.md file.
 - The initial README file. Edited heavily.  
