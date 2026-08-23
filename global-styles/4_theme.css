@@ -14,6 +14,7 @@ header {
     height: 10rem;
     display: flex; 
     align-items: flex-end;
+    margin: 0 0 4rem;
 }
 
 nav {
@@ -26,6 +27,8 @@ nav {
     font-family: var(--mono);
     text-transform: uppercase;
     letter-spacing: 0.1em;
+    position: relative;
+    z-index: 10;
 }
 
 nav ul {
@@ -55,7 +58,8 @@ nav ul li :is(a, a:visited) {
 
 nav ul li :is(a:hover, a:focus) {
     color: var(--accent);
-    background: linear-gradient(transparent, color-mix(in srgb, var(--accent-inverse) 10%));
+    background: linear-gradient(transparent, color-mix(in srgb, var(--accent-inverse) 25%));
+    cursor: pointer;
 }
 
 main {
@@ -97,13 +101,12 @@ aside {}
 h1, h2, h3, h4, h5, h6 {
     font-family: var(--mono);
     font-weight: 900;
-    letter-spacing: 0.125em;
+    margin: 0 0 1rem;
 }
 
 h1 {
-    font-size: 3rem;
+    font-size: 2.5rem;
     text-align: center;
-    margin-top: 4rem;
 }
 
 
@@ -128,6 +131,12 @@ h6 {
 /* Text content */
 p {
     font-family: var(--sans);
+    font-size: 1rem;
+    margin: 0 0 1rem;
+}
+
+p:has(.btn) {
+    margin: 2rem 0;
 }
 
 /*
@@ -253,6 +262,36 @@ button {
 
 button:hover, button:focus {
     background-color: var(--accent-inverse)
+}
+
+.btn {  /* a or button with class btn */
+    font-weight: 700;
+    padding: 1rem 2rem;
+    background: none;
+    border: none;
+    transition: background-color 0.5s;
+    text-transform: uppercase;
+    text-decoration: none;
+    letter-spacing: 0.1em;
+}
+
+.btn.btn-primary {
+    background-color: var(--accent);
+    color: var(--text-inverse);
+}
+
+.btn-primary::is(:hover, :focus) {
+    background-color: var(--accent-hover);
+}
+
+.btn.btn-nav {
+    background-color: none; 
+    margin: 0;
+    padding: 0.5rem;
+}
+
+.btn.btn-nav:is(:hover, :focus) {
+    background-color: var(--text);
 }
 
 /* 

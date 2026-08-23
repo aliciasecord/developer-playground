@@ -1,21 +1,8 @@
-@import url(/global-styles/modern-normalize.css) layer(reset);
-@import url(/global-styles/tokens.css) layer(tokens);
-@import url(/global-styles/theme.css) layer(theme);
-@import url(/global-styles/patterns.css) layer(patterns);
+@import url(global-styles/1_modern-normalize.css) layer(reset);
+@import url(global-styles/2_tokens.css) layer(tokens);
+@import url(global-styles/3_utilities.css) layer(utilities);
+@import url(global-styles/4_theme.css) layer(theme);
+@import url(global-styles/5_patterns.css) layer(patterns);
 
 
 @layer patterns, theme, utilities, tokens, reset;
-
-@layer utilities {
-  .text-scale-400 {font-size: 4em; line-height: 1;}
-  .text-scale-600 {font-size: 6em; line-height: 1;}
-  .text-scale-800 {font-size: 8em; line-height: 1;}
-
-  .text-color-accent {color: var(--accent);}
-
-  a.btn, button.btn {
-    padding: 0.25rem 0.5rem;
-    background: none;
-    border: none;
-  }
-}

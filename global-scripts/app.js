@@ -7,10 +7,10 @@ header.innerHTML = `
     <a href="/" class="brand">Developer<br>Playground</a>
     <ul>
       <li><a href="/">Home</a></li>
-      <li><a href="/about">About</a></li>
-      <li><a href="/#projects">Projects</a></li>
+      <li><a href="about.html">About</a></li>
+      <li><a href="/dev-playground#projects">Projects</a></li>
     </ul>
-    <button id="theme-toggle" class="btn btn-primary" type="button" aria-label="Toggle light/dark mode">🌓</button>
+    <button id="theme-toggle" class="btn btn-nav" type="button" aria-label="Toggle light/dark mode">🌓</button>
   </nav>
 </div>
 `;
