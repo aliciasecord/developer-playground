@@ -14,7 +14,6 @@ header {
     height: 10rem;
     display: flex; 
     align-items: flex-end;
-    margin: 0 0 4rem;
 }
 
 nav {
@@ -29,6 +28,11 @@ nav {
     letter-spacing: 0.1em;
     position: relative;
     z-index: 10;
+}
+
+nav .nav-row {
+    display: flex; 
+    justify-content: space-between;
 }
 
 nav ul {
@@ -61,6 +65,8 @@ nav ul li :is(a:hover, a:focus) {
     background: linear-gradient(transparent, color-mix(in srgb, var(--accent-inverse) 25%));
     cursor: pointer;
 }
+
+nav .hamburger {display: none;}
 
 main {
     --grid-size: 4rem; 
@@ -95,6 +101,24 @@ aside {}
 
 .inner.condensed {
     max-width: 40rem;
+}
+
+.inner.padded {
+    padding: 4rem 0;
+}
+
+@media (width < 768px) {
+    nav {flex-wrap: wrap; justify-content: center;}
+    nav .hamburger {display: block;}
+    nav a.brand {width: 100%; text-align: center; margin: 1rem;}
+    nav ul {display: none;}
+    nav ul.open {display: block;}
+    nav ul.open li {display: block;}
+    nav ul.open li a {display: block; height: 4rem;}
+}
+
+@media (width < 576px) {
+    .inner {padding: 0 2rem;}
 }
 
 /* Headings */
@@ -261,7 +285,7 @@ button {
 }
 
 button:hover, button:focus {
-    background-color: var(--accent-inverse)
+    background: var(--accent-inverse)
 }
 
 .btn {  /* a or button with class btn */
@@ -269,29 +293,29 @@ button:hover, button:focus {
     padding: 1rem 2rem;
     background: none;
     border: none;
-    transition: background-color 0.5s;
+    transition: background 0.5s;
     text-transform: uppercase;
     text-decoration: none;
     letter-spacing: 0.1em;
 }
 
 .btn.btn-primary {
-    background-color: var(--accent);
+    background: var(--accent);
     color: var(--text-inverse);
 }
 
 .btn-primary::is(:hover, :focus) {
-    background-color: var(--accent-hover);
+    background: var(--accent-hover);
 }
 
 .btn.btn-nav {
-    background-color: none; 
+    background: none; 
     margin: 0;
     padding: 0.5rem;
 }
 
 .btn.btn-nav:is(:hover, :focus) {
-    background-color: var(--text);
+    background: var(--text);
 }
 
 /* 

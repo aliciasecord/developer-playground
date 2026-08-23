@@ -2,4 +2,8 @@
 .text-scale-600 {font-size: 6em; line-height: 1;}
 .text-scale-800 {font-size: 8em; line-height: 1;}
 
+@media (width < 768px) {
+    .text-scale-800 {font-size: 4em;}
+}
+
 .text-color-accent {color: var(--accent);}

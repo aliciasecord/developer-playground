@@ -11,15 +11,17 @@ Planning happens weekly, every Sunday: pick the upcoming week's builds, and log 
 
 <!-- Planned each Sunday. One line per build, day number + name. -->
 
-- [ ] Day 001 — Project Boilerplate. Write the landing page (header, nav, main, footer) in light mode. All but main should be served by app.js. Main on the landing page will be completed later this week. (TYPE: Webpage)
-- [ ] Day 002 — Project Boilerplate continued. Also build the template files for the rest of the project. - IN PROGRESS: Made sense of my CSS files and expanded the theme to more elements. Continue this in next session.
-- [ ] Day 003 — Main for the landing page: Card style and masonry layout. Make a second page describing the design and dev choices. (TYPE: Webpage) 
-- [ ] Day 004 — Dark Mode for the project. (TYPE: CSS Theme)
-- [ ] Day 005 — Print-stylesheet for project. (TYPE: CSS Theme)
-- [ ] Day 007 — Main for the landing page: Simple FAQ widget. Make a second page describing the design and dev choices. (TYPE: Styleguide)
-- [ ] Day 008 — 404 error page for project. (TYPE: Webpage)
-- [ ] Day 009 — Color palette picker. (TYPE: Utility)
-- [ ] Day 010 — Rock. Paper. Scissors. Lizard. Spock. (TYPE: Game)
+### Project 1: Landing page for the project in light mode. (TYPE: WEBPAGE)
+- [ ] Day 001 — Project landing page. Write the landing page (header, nav, main, footer) in light mode. All but main should be served by app.js. Main on the landing page will be completed later this week.
+- [ ] Day 002 — Project landing page continued. - Finished the hero of the landing page at all breakpoints. IN PROGRESS: Mobile nav to be continued tomorrow.
+- [ ] Day 003 — Project landing page continued. Finish mobile nav. 
+- [ ] Day 004 — Main for the landing page: Card style and masonry layout. 
+- [ ] Day 005 — Main for the landing page: Simple FAQ widget.
+- [ ] Day 006 — Write about landing page choices on Project 1 page. Also write a style guide? 
+### Project 2: Dark Mode for the project. (TYPE: CSS THEME)
+### Project 3: Print-stylesheet for project. (TYPE: CSS THEME)
+### Project 4: 404 error page for project. (TYPE: WEBPAGE)
+### Project 5: Rock. Paper. Scissors. Lizard. Spock. (TYPE: GAME)
 
 ## Builds so far
 

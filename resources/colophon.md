@@ -58,3 +58,4 @@ https://developer.mozilla.org/en-US/
 - The initial README file. Edited heavily.  
 - A CSS file with every HTML element in it and ready to be styled
 - The functions for injecting the header, nav, footer into the HTML 
+- The functions to make the mobile nav work. I hate developing responsive navs but haven't figured out what to do instead.

@@ -1,5 +1,13 @@
 /* HERO ELEMENTS */
+.hero {
+    margin: 4rem 0;
+}
 .hero p {
     font-size: 1.25em;
     text-align: center;
+}
+
+@media (width < 768px) {
+    .hero p {font-size: 1em;}
+    .hero .btn {font-size: 0.75em;}
 }
