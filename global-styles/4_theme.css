@@ -95,6 +95,11 @@ aside {}
     width: 100%;
     max-width: 60rem;
     margin: 0 auto;
+    background: var(--bg);
+}
+
+:is(header, footer) .inner {
+    background: none;
 }
 
 .inner.condensed {
