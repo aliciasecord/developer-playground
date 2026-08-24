@@ -27,9 +27,10 @@ Planning happens weekly, every Sunday: pick the upcoming week's builds, and log 
 
 <!-- Reverse-chronological. Add newest entries to the top after each build ships. -->
 
-| Day | Build | Notes | Link | 
-| --- | --- | --- |
-| 001 | Project landing page | JS based injection of header, nav, footer for use on future pages. There will also be a project page where I write about the decisions made instead of the landing page info. | [LANDING PAGE](/) or [PROJECT PAGE](/001-landing-page) |
+| Project | Day(s) | Build | Notes | Link | 
+| --- | --- | --- | --- | --- |
+
+| 001 | 001-0?? | Project Landing Page | JS based injection of header, nav, footer for use on future pages. There will also be a project page where I write about the decisions made instead of the landing page info. | [LANDING PAGE](/) or [PROJECT PAGE](/001-landing-page) |
 
 ## Structure
 

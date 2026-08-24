@@ -28,11 +28,7 @@ nav {
     letter-spacing: 0.1em;
     position: relative;
     z-index: 10;
-}
-
-nav .nav-row {
-    display: flex; 
-    justify-content: space-between;
+    position: relative;
 }
 
 nav ul {
@@ -67,6 +63,8 @@ nav ul li :is(a:hover, a:focus) {
 }
 
 nav .hamburger {display: none;}
+
+nav :is(.hamburger:hover, .hamburger.active, .hamburger:focus) {color: var(--accent-inverse); background: var(--text);}
 
 main {
     --grid-size: 4rem; 
@@ -108,13 +106,15 @@ aside {}
 }
 
 @media (width < 768px) {
-    nav {flex-wrap: wrap; justify-content: center;}
     nav .hamburger {display: block;}
-    nav a.brand {width: 100%; text-align: center; margin: 1rem;}
-    nav ul {display: none;}
+    nav a.brand {text-align: center; margin: 1rem;}
+    nav .nav-row {position: relative;}
+    nav ul {display: none; background: var(--text); transition: display 1s; padding: 0; margin: 0; position: absolute; top: 3rem; width: 100%;}
     nav ul.open {display: block;}
-    nav ul.open li {display: block;}
-    nav ul.open li a {display: block; height: 4rem;}
+    nav ul.open li {display: block; width: 100%;}
+    nav ul li :is(a, a:visited) {height: auto; display: block; color: var(--accent-inverse); }
+    nav ul li a:hover {color: var(--text); background: var(--accent-inverse);}
+    header {height: auto;}
 }
 
 @media (width < 576px) {
@@ -316,6 +316,7 @@ button:hover, button:focus {
 
 .btn.btn-nav:is(:hover, :focus) {
     background: var(--text);
+    color: var(--accent-inverse);
 }
 
 /* 

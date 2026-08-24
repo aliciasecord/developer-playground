@@ -19,6 +19,6 @@
   --heading-weight: 900;
   --body-weight: 400;
   --data-spacing: 0.25em;
-  --border: var(--accent-inverse) 2px solid;
+  --border: var(--accent) 2px solid;
 }
 
