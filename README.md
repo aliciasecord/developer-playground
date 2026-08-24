@@ -12,8 +12,8 @@ Planning happens weekly, every Sunday: pick the upcoming week's builds, and log 
 <!-- Planned each Sunday. One line per build, day number + name. -->
 
 ### Project 1: Landing page for the project in light mode. (TYPE: WEBPAGE)
-- [ ] Day 001 — Project landing page. Write the landing page (header, nav, main, footer) in light mode. All but main should be served by app.js. Main on the landing page will be completed later this week.
-- [ ] Day 002 — Project landing page continued. - Finished the hero of the landing page at all breakpoints. IN PROGRESS: Mobile nav to be continued tomorrow.
+- [x] Day 001 — Project landing page. Write the landing page (header, nav, main, footer) in light mode. All but main should be served by app.js. Main on the landing page will be completed later this week.
+- [x] Day 002 — Project landing page continued. - Finished the hero of the landing page at all breakpoints and mobile nav. IN PROGRESS: Writing and Template creation to be continued tomorrow.
 - [ ] Day 003 — Project landing page continued. Finish mobile nav. 
 - [ ] Day 004 — Main for the landing page: Card style and masonry layout. 
 - [ ] Day 005 — Main for the landing page: Simple FAQ widget.
