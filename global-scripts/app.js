@@ -5,11 +5,11 @@ header.innerHTML = `
 <div class="inner">
   <nav>
     <button id="nav-toggle" class="btn btn-nav hamburger" type="button" aria-label="Toggle navigation menu" aria-expanded="false" aria-controls="nav-menu">☰</button>
-    <a href="/" class="brand">Developer<br>Playground</a>
+    <a href="/developer-playground" class="brand">Developer<br>Playground</a>
     <ul id="nav-menu">
-      <li><a href="/">Home</a></li>
-      <li><a href="/dev-playground/about">About</a></li>
-      <li><a href="/dev-playground#projects">Projects</a></li>
+      <li><a href="/developer-playground">Home</a></li>
+      <li><a href="/developer-playground/about">About</a></li>
+      <li><a href="/developer-playground#projects">Projects</a></li>
     </ul>
     <button id="theme-toggle" class="btn btn-nav" type="button" aria-label="Toggle light/dark mode">🌓</button>
   </nav>

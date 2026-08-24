@@ -76,16 +76,29 @@ main {
 }
 
 footer {
-    background: color-mix(in srgb, var(--accent-inverse) 10%, var(--bg));
+    background: color-mix(in srgb, var(--accent) 75%, var(--bg));
     padding: 1rem 0;
     text-align: center;
+    color: var(--text-inverse);
+}
+
+footer :is(a, a.visited) {
+    color: var(--text-inverse);
+}
+
+footer :is(a:hover, a:focus) {
+    color: var(--accent-inverse);
 }
 
 /*
 section {}
+*/
+article {
+    margin: 4rem 0;
+}
 
-article {}
 
+/*
 aside {}
 
 .hero {}

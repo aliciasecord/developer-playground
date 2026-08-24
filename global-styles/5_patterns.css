@@ -7,6 +7,14 @@
     text-align: center;
 }
 
+article .hero {
+    margin: 4rem 0;
+}
+
+article .hero :is(h1, p) {
+    text-align: left; 
+}
+
 @media (width < 768px) {
     .hero p {font-size: 1em;}
     .hero .btn {font-size: 0.75em;}

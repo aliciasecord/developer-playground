@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width">
+  <meta name="text-scale" content="scale">
+  <title>Project 001 | Landing Page and Project Scaffolding | Developer Playground</title>
+  <script src="../../global-scripts/theme.js"></script>
+  <link rel="stylesheet" href="../../style.css">
+  <link rel="stylesheet" href="style.css">
+  <!-- FAVICON -->
+  <link rel="apple-touch-icon" sizes="180x180" href="/developer-playground/favicon/apple-touch-icon.png">
+  <link rel="icon" type="image/png" sizes="32x32" href="/developer-playground/favicon/favicon-32x32.png">
+  <link rel="icon" type="image/png" sizes="16x16" href="/developer-playground/favicon/favicon-16x16.png">
+  <link rel="manifest" href="/developer-playground/favicon/site.webmanifest">
+
+  <link rel="canonical" href="https://aliciasecord.com/dev-playground">
+  <link rel="me" href="https://mastodon.social/@atomicpixie">
+
+  <meta name="description" content="Project 001 was to create the landing page and the scaffolding for the project. It took X days and Y commits.">
+  <meta property="og:image" content="../../images/project-001-OGimage.png">
+  <meta property="og:url" content="https://aliciasecord.com/developer-playground/projects/001-landing-page">
+  <meta name="theme-color" content="#FFADBB">
+  <meta property="fediverse:creator" content="@atomicpixie@mastodon.social" >
+</head>
+
+<body>
+  <header>Please enable Javascript for full functionality.</header>
+
+  <main>
+    <article>
+      <section class="hero">
+        <div class="inner">
+        <h1>Landing Page and Project Scaffolding</h1>
+        <p class="subtitle">Project 001<br>Days 001-NOW</p>
+        </div>
+      </section>
+      <section class="project-synopsis inner">
+        <h2>Planned MVP</h2>
+        <p></p>
+        <h2>About This Build</h2>
+        <p>This was the learning build, in that I learned a lot of things that don't work. First, I tried to get Claude to code the landing page for me. But I was so annoyed with what it created that I scrapped it and started over.</p>
+        <p>I decided to serve up the site header and footer across the project with the app.js file. The theme.js file will detect system light or dark mode and is render blocking.</p>
+        <p>In the end, I did a lot of this by hand. I decided to start noting in the <a href="https://github.com/aliciasecord/developer-playground/blob/main/resources/colophon.md" target="_blank">colophon.md</a> file where Claude wrote things in this repo. The main thing it did was create me a CSS file (<a href="https://github.com/aliciasecord/developer-playground/blob/main/global-styles/theme.css" target="_blank">theme.css</a>) with everyz HTML element in it. I am using that as my CSS boilerplate.</p>
+        <p>Once I nailed down the landing page hero design, I created the mobile navigation menu with a hamburger toggle and started this write-up.</p>
+        <p>Claude helped me with the JS for the mobile hamburger nav, in that I wrote it and asked it to check me when it didn't work. It edited that section of the <a href="https://github.com/aliciasecord/developer-playground/blob/main/global-scripts/app.js" target="_blank">app.js</a> file.</p>
+        <p>It finally occured to me why I would want to embed fonts into the CSS file. So I did that. It wasn't hard. </p>
+        <h2>TO DO</h2>
+        <p>Create the card style and masonry layout for micro-projects to display on the landing page and create the micro-project boilerplate.</p>
+      </section>
+      <section class="article-footer inner">
+        <!-- tags, link to the live demo/repo folder, prev/next project -->
+        <!--# commits | TYPE: Webpage | Live page: /developer-playground | Logs: 002, ??? -->
+        <!-- back to home | next project | latest project -->
+      </section>
+    </article>
+  </main>
+
+  <footer><!-- site footer / colophon link --></footer>
+
+  <script src="../../global-scripts/app.js"></script>
+  <script src="../../script.js"></script>
+</body>
+</html>
