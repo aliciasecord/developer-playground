@@ -53,6 +53,12 @@ https://www.w3schools.com/
 ### Mozilla Developer Network
 https://developer.mozilla.org/en-US/
 
+### CSS Tricks: Flexbox
+https://css-tricks.com/snippets/css/a-guide-to-flexbox/
+
+### Coolors
+
+
 ## Claude Generated
 - The ideas in the curriculum.md file.
 - The initial README file. Edited heavily.  

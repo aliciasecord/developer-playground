@@ -20,5 +20,7 @@
   --body-weight: 400;
   --data-spacing: 0.25em;
   --border: var(--accent) 2px solid;
+  --border-inverse: var(--accent-hover) 2px solid;
+  --shadow: 0 0 1rem 0 color-mix(in srgb, var(--text) 25%);
 }
 

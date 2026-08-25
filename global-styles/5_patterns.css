@@ -16,11 +16,18 @@ article .hero :is(h1, p) {
 }
 
 .projects {
-    display: grid;
-    grid-template-columns: 1fr 1fr;
-    grid-template-rows: masonry;
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    justify-content: center;
     gap: 1rem;
+    flex-wrap: wrap;
 }
+
+.projects .card {
+    flex-grow: 1;
+}
+
 
 @media (width < 768px) {
     .hero p {font-size: 1em;}

@@ -9,7 +9,7 @@ const recentProjects = projects
 projectsHome.innerHTML = recentProjects
   .map((p) => `
     <article class="card card-project">
-      <p class="project-status">${p.status === 'live' ? 'Live' : 'In Progress'}</p>
+      <p class="label">${p.status === 'live' ? 'Live' : 'In Progress'}</p>
       <h3><a href="${p.path}">${p.title}</a></h3>
       <p>${p.description}</p>
     </article>

@@ -1,7 +1,7 @@
 ﻿const projects = [
   { id: "001", number: 1, title: "Project Landing Page", description: "This was a long one.", category: "Webpage", week: 1, path: "/developer-playground/projects/001-landing-page", status: "in-progress", commits: 10 },
-  { id: "002", number: 2, title: "Rock Paper Scissors Lizard Spock", category: "Game", week: 2, path: "/developer-playground", status: "in-progress", tags: [], commits: 0 },
-  { id: "003", number: 3, title: "", category: "", week: false, path: "", status: "planned", tags: [], commits: 0 },
+  { id: "002", number: 2, title: "Rock Paper Scissors Lizard Spock", category: "Game", week: 2, path: "/developer-playground", status: "planned", tags: [], commits: 0 },
+  { id: "003", number: 3, title: "Testing #3", category: "Game", week: 2, path: "", status: "planned", tags: [], commits: 0 },
   { id: "004", number: 4, title: "", category: "", week: false, path: "", status: "planned", tags: [], commits: 0 },
   { id: "005", number: 5, title: "", category: "", week: false, path: "", status: "planned", tags: [], commits: 0 },
   { id: "006", number: 6, title: "", category: "", week: false, path: "", status: "planned", tags: [], commits: 0 },
