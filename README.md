@@ -13,8 +13,8 @@ Planning happens weekly, every Sunday: pick the upcoming week's builds, and log 
 
 ### Project 1: Landing page for the project in light mode. (TYPE: WEBPAGE)
 - [x] Day 001 — Project landing page. Write the landing page (header, nav, main, footer) in light mode. All but main should be served by app.js. Main on the landing page will be completed later this week.
-- [x] Day 002 — Project landing page continued. - Finished the hero of the landing page at all breakpoints and mobile nav. IN PROGRESS: Writing and Template creation to be continued tomorrow.
-- [ ] Day 003 — Project landing page continued. Finish mobile nav. 
+- [x] Day 002 — Project landing page continued. - Finished the hero of the landing page at all breakpoints and the mobile nav.
+- [x] Day 003 — Project scaffolding: create boilerplate for various page types. 
 - [ ] Day 004 — Main for the landing page: Card style and masonry layout. 
 - [ ] Day 005 — Main for the landing page: Simple FAQ widget.
 - [ ] Day 006 — Write about landing page choices on Project 1 page. Also write a style guide? 
@@ -49,3 +49,18 @@ XXX-build-name/
 - One folder per day, self-contained.
 - Commit early and often; don't hold a build back waiting for it to be "done."
 - Categories are alternated rather than worked straight down the list, to keep momentum.
+- Each project should be documented and self-contained
+- Each day that there is progress should get a write-up, but don't worry if that doesn't happen.
+
+## Site Map
+HOME
+  | - ABOUT (now, curriculum, about)
+  | - PROJECTS
+    | - XXX-template
+    | - **365** project folders (the project and write-up should live in the same place if both exist, otherwise, just a write-up.)
+  | - LOG
+    | - template
+    | - **365** day log folders
+  | - 
+  | - SEARCH?
+404

@@ -7,3 +7,6 @@
 }
 
 .text-color-accent {color: var(--accent);}
+
+.flex-row {display: flex; flex-direction: row; gap: 2rem;}
+.w-100 {width: 100%;}

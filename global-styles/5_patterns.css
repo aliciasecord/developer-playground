@@ -8,11 +8,18 @@
 }
 
 article .hero {
-    margin: 4rem 0;
+    margin: 2rem 0;
 }
 
 article .hero :is(h1, p) {
     text-align: left; 
+}
+
+.projects {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: masonry;
+    gap: 1rem;
 }
 
 @media (width < 768px) {

@@ -4,7 +4,6 @@
 body {
     background: var(--bg);
     color: var(--text);
-
 }
 
 /* Sectioning */
@@ -28,7 +27,6 @@ nav {
     letter-spacing: 0.1em;
     position: relative;
     z-index: 10;
-    position: relative;
 }
 
 nav ul {
@@ -72,7 +70,7 @@ main {
     background-size: var(--grid-size) var(--grid-size);
     background-position: center top;
     width: 100%;
-    margin: -4rem 0 0;
+    position: relative;
 }
 
 footer {
@@ -93,16 +91,17 @@ footer :is(a:hover, a:focus) {
 /*
 section {}
 */
+
 article {
-    margin: 4rem 0;
+    position: relative;
 }
 
-
-/*
-aside {}
-
-.hero {}
-*/
+aside {
+    background: color-mix(in srgb, var(--accent-inverse) 25%);
+    color: var(text);
+    width: 33%;
+    padding: 1rem 2rem;
+}
 
 .inner {
     width: 100%;
@@ -121,6 +120,24 @@ aside {}
 
 .inner.padded {
     padding: 4rem 0;
+}
+
+.card {
+    background: color-mix(in srgb, var(--accent) 75%);
+    color: var(--text-inverse);
+    padding: 1.5rem;
+    border-radius: var(--radius);
+}
+.card h3 {
+    font-weight: 100;
+}
+.card :is(a, a:visited) {
+    color: var(--accent-inverse);
+    text-decoration: none;
+}
+.card :is(a:hover, a:focus) {
+    color: var(--text-inverse);
+    text-decoration: underline;
 }
 
 @media (width < 768px) {

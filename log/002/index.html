@@ -34,59 +34,51 @@
         <h1>And So It Begins</h1>
         <p class="subtitle">Day 002 | Sunday | August 23, 2026</p>
       </section>
+
       <section class="log">
-        <p>The first day was Saturday, August 22, 2026. This day got away from me and I spent a lot of time coding. First, I tried to get Claude to code the landing page for me. But I was so annoyed with what it created that I scrapped it and started over.</p>
-        <p>This day saw me code for nearly 6 hours from 12:30 p.m. to 8:30 p.m. with breaks for food and unpacking. In that time, I made 4 commits.</p>
-        <p>I decided to serve up the site header and footer across the project with the app.js file. The theme.js file will detect system light or dark mode and is render blocking.</p>
-        <p>In the end, I did a lot of this by hand. I decided to start noting in the <a href="https://github.com/aliciasecord/developer-playground/blob/main/resources/colophon.md" target="_blank">colophon.md</a> file where Claude wrote things in this repo. The main thing it did was create me a CSS file (<a href="https://github.com/aliciasecord/developer-playground/blob/main/global-styles/theme.css" target="_blank">theme.css</a>) with every HTML element in it. I am using that as my CSS boilerplate.</p>
-        <h2>Day 002</h2> 
-        <p>On day 2, I nailed down the landing page hero design, created the mobile navigation menu with a hamburger toggle, and started this write-up.</p>
-        <p>This time, Claude helped me with the JS for the mobile hamburger nav, in that I wrote it and asked it to check me when it didn't work. It edited that section of the <a href="https://github.com/aliciasecord/developer-playground/blob/main/global-scripts/app.js" target="_blank">app.js</a> file.</p>
-        <p>It finally occured to me why I would want to embed fonts into the CSS file. So I did that. It wasn't hard. </p>
-        <h2>Day 003</h2>
-        <p>TO DO: Create the card style and masonry layout for micro-projects to display on the landing page and create the micro-project boilerplate.</p>
-      </section>
+        <p>I don't remember exactly how I decided to kick off this year-long project to get a fully green GitHub bar. But the first action item, at 11:07 p.m. on Friday, was to ask Claude:</p>
 
-<section>
-<p>It made sense to me (a web developer) to start this year-long project with creating a webpage for it. Afterall, if I am going to create 365 micro-projects in one Github repo, shouldn't I deploy on Github Pages to share it with friends? And then, shouldn't I have a landing page to easily link to each project? Well, yes, but also, this should not have been my first project. I realize that on Sunday night (Day 002) having spent at least 8 hours on this one "micro"-project. So, I am deciding on Sunday night at 10:40 p.m. to set for myself an MVP for each project before beginning. This was a good reminder from a project management point of view. Spend more time planning rather than jumping right in.</p>
+        <blockquote>
+          Give me 100 micro dev projects (HTML, CSS, and Javascript only) to keep my Github going. I want to code every day for a year. Each should be completeable in a single sitting or no more than a week.
+        </blockquote>
 
-<p>So how did I start this year-long project to get a fully green github bar? I don't remember. But the first action item on Friday night at 11:07 p.m. was to ask Claude:</p>
+        <p>The next prompt was to expand the list to 365 projects. I refined that list a bit and then went to bed. I started on the actual project Saturday at noon.</p>
 
-<blockquote>
-    Give me 100 micro dev projects (HTML, CSS, and Javascript only) to keep my Github going. I want to code every day for a year. Each should be completeable in a single sitting or no more than a week.
-</blockquote>
+        <h2>Day 001</h2>
 
-<p>The next prompt was to expand the list to 365 projects. I refined that list a bit and then went to bed. I started on the actual project Saturday at noon.</p>
+        <p>The first thing I did was ask Claude Code (I use the VS Code IDE) to create a game of Rock. Paper. Scissors. Lizard. Spock. It did the job. I didn't love the UI, but the thing worked. I didn't even have to explain the rules. At this point, I thought, great, I'll learn how to use Claude Code better as I do this, which will help things at work.</p>
 
-<h2>Day 001</h2>
+        <p>So then I asked Claude to create a landing page for the repo. I figured I would deploy to GitHub Pages and have a single spot where the micro-projects can be viewed. This decision led to me firing Claude. The UI looked fine, if generic, but I figured I could go in and edit the files to look the way I wanted. But when I got into the back-end, the code was overly verbose and disorganized. This had me going back and checking the JS for the game, and yep, same there. So I'll redo that one eventually.</p>
 
-<p>The first thing I did was ask Claude Code (I use VS Code IDE) to create a game of Rock. Paper. Scissors. Lizard. Spock. It did the job. I didn't love the UI, but the thing worked. I didn't even have to explain the rules. At this point, I thought, great, I'll learn how to use Claude Code better as I do this, which will help things at work.</p>
+        <p>And look, I know that Skills exist. And for work, I will probably use this knowledge to dig more into how Skills operate. But when I'm coding for fun &hellip; not worth it to me.</p>
 
-<p>So then I asked Claude to create a landing page for the repo. I figured I would deploy to Github Pages and have a single spot where the micro-projects can be viewed. This decision led to me firing Claude. The UI looked fine, if generic, but I figured I could go in and edit the files to look the way I wanted. But when I got into the back-end, the code was overly verbose and disorganized. This had me going back and checking the JS for the game and yep, same there. So I'll redo that one eventually.</p>
+        <p>And that's what this is: Coding. For. Fun.</p>
 
-<p>And look, I know that Skills exist. And for work, I will probably use this knowledge to dig more into how Skills operate. But when I'm coding for fun ... not worth it to me.</p>
+        <p>So I stopped using Claude, scrapped all the code it had written, and started over. I used Claude chat to help me narrow down the fonts I wanted. I landed on Recursive (a monospace font with interesting shapes) and Public Sans (the open source font that government websites use).</p>
 
-<p>And that's what this is: Coding. For. Fun.</p>
+        <p>Then I coded, by hand, for nearly six hours, with breaks for food and unpacking. I decided to serve up the site header and footer across the project with the <code>app.js</code> file. The <code>theme.js</code> file detects system light or dark mode and is render-blocking.</p>
 
-<p>So I stopped using Claude, scrapped all the code it had written, and started over. I used Claude chat to help me narrow down the fonts I wanted. I landed on Recursive (a monospace font with interesting shapes) and Public Sans (the open source font that government websites use).</p>
+        <p>I also started noting, in <a href="https://github.com/aliciasecord/developer-playground/blob/main/resources/colophon.md" target="_blank">colophon.md</a>, everywhere Claude wrote something in this repo. The main thing it did on Day 001 was create a CSS file (<a href="https://github.com/aliciasecord/developer-playground/blob/main/global-styles/theme.css" target="_blank">theme.css</a>) with every HTML element in it, which I'm now using as my CSS boilerplate.</p>
 
-<p>So when it hit 8:30 p.m. on Saturday I shut things down and fell asleep to the end of Project Hail Mary on the TV and music in my headphones.</p>
+        <p>At 8:30 p.m., I shut things down and fell asleep to the end of Project Hail Mary on the TV, with music in my headphones.</p>
 
-<p>4 commits</p>
+        <p>4 commits.</p>
 
-<h2>Day 002</h2>
+        <h2>Day 002</h2>
 
-<p>I worked on this for 1 hour before Mass and a couple hours Sunday evening. I finally have the header, hero, and footer done for the landing page. I also made the navigation responsive. Claude did help with that. I don't know why I have such a hard time with Javascript. That's not true, it's because I don't write it nearly as often as I do HTML and CSS and it's more creative (imo) to write.</p>
+        <p>I worked on this for an hour before Mass, then a couple more hours Sunday evening. The header, hero, and footer for the landing page are finally done, and the navigation is responsive. Claude helped with that part — I wrote the JS for the mobile hamburger nav myself and asked it to check my work when it didn't fire correctly, and it edited that section of <a href="https://github.com/aliciasecord/developer-playground/blob/main/global-scripts/app.js" target="_blank">app.js</a>.</p>
 
-<p>I also started making the boilerplate for project write-ups.</p>
+        <p>I don't know why I have such a hard time with JavaScript. Actually, I do. I just don't write it nearly as often as HTML and CSS, and it feels a little more loosey-goosey to write, in my opinion.</p>
 
-<p>At 11:02 p.m. Sunday, I have realized that I should have spent more time planning and sketching the landing page rather than jumping right into coding. I spent a lot of time fiddling and rewriting yesterday because I didn't do either of those things before jumping into coding. So now I am going to develop an SOP that requires me to do some planning (including writing down the MVP features for each micro-project before beginning it, defining the structure, and sketching the UI and flows).</p>
+        <p>It finally occurred to me why I'd want to embed fonts into the CSS file, so I did that. Wasn't hard. I also started the boilerplate for project write-ups, including this log.</p>
 
-<p>Basically, it makes the coding go faster when you do the UX things first. Since I am my only user, I will just assume that my needs are paramount in the design, but accessibility is of the utmost importance as I am trying to become more well versed with the WCAG standards for web development. That's another thing that I am learning that I am able to apply at work.</p>
+        <p>It made sense to me, as a web developer, to start this year-long project by building a webpage for it — if I'm going to create 365 micro-projects in one GitHub repo, shouldn't I deploy on GitHub Pages to share it with friends, with a landing page to link to each one? Well, yes. But also, this should not have been my first project. I realized that on Sunday night, having spent at least eight hours on this one "micro"-project. So I decided, at 10:40 p.m., to set an MVP for myself before starting each future project — a good reminder, from a project-management standpoint, to spend more time planning rather than jumping straight in.</p>
 
-<p>5 commits today.</p>
+        <p>Basically, the coding goes faster when the UX work happens first. Since I'm my only user, I'll assume my own needs are paramount in the design, but accessibility still matters most of all, since I'm trying to get more fluent in WCAG standards. That's another thing I'm learning here that carries over directly to work.</p>
 
-</section>
+        <p>5 commits today.</p>
+
+      </section>      
 
       <section class="article-footer" id="article-footer">
         <!-- tags, link to the live demo/repo folder, prev/next project -->
