@@ -16,12 +16,14 @@ Planning happens weekly, every Sunday: pick the upcoming week's builds, and log 
 - [x] Day 002 — Project landing page continued. - Finished the hero of the landing page at all breakpoints and the mobile nav.
 - [x] Day 003 — Project scaffolding: create boilerplate for various page types. 
 - [x] Day 004 — Main for the landing page: Card style and masonry layout. 
-- [ ] Day 005 — Main for the landing page: Simple FAQ widget.
-- [ ] Day 006 — Write about landing page choices on Project 1 page. Also write a style guide? 
+- [x] Day 005 — Get all the dynamic pages working for the project.
+- [ ] Day 006 — Main for the landing page: Simple FAQ widget.
+- [ ] Day 007 — Write about landing page choices on Project 1 page. Also write a style guide? 
 ### Project 2: Dark Mode for the project. (TYPE: CSS THEME)
 ### Project 3: Print-stylesheet for project. (TYPE: CSS THEME)
 ### Project 4: 404 error page for project. (TYPE: WEBPAGE)
-### Project 5: Rock. Paper. Scissors. Lizard. Spock. (TYPE: GAME)
+### Project 5: About page for project. (TYPE: WEBPAGE)
+### Project 6: Rock. Paper. Scissors. Lizard. Spock. (TYPE: GAME)
 
 ## Builds so far
 

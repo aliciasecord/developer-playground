@@ -28,6 +28,25 @@ article .hero :is(h1, p) {
     flex-grow: 1;
 }
 
+.log-main ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+.log-main ul li:not(:last-child) {
+    border-bottom: var(--border);
+    padding: 0 0 2rem;
+}
+
+.log-main ul li:not(:first-child) {
+    padding: 2rem 0;
+}
+
+.log-main h2 {
+    margin: 0; 
+}
+
 
 @media (width < 768px) {
     .hero p {font-size: 1em;}

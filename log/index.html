@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width">
+  <meta name="text-scale" content="scale">
+  <title>The Full Captain's Log | Developer Playground</title>
+  <script src="../global-scripts/theme.js"></script>
+  <link rel="stylesheet" href="../style.css">
+  <!-- FAVICON -->
+  <link rel="apple-touch-icon" sizes="180x180" href="../favicon/apple-touch-icon.png">
+  <link rel="icon" type="image/png" sizes="32x32" href="../favicon/favicon-32x32.png">
+  <link rel="icon" type="image/png" sizes="16x16" href="../favicon/favicon-16x16.png">
+  <link rel="manifest" href="../favicon/site.webmanifest">
+
+  <link rel="canonical" href="https://aliciasecord.com/developer-playground/log">
+  <link rel="me" href="https://mastodon.social/@atomicpixie">
+
+  <meta name="description" content="The log of my progress on my goal to turn my Github green.">
+  <meta property="og:image" content="../images/LandingPageOGImage.png">
+  <meta property="og:url" content="https://aliciasecord.com/dev-playground/log">
+  <meta name="theme-color" content="#FFADBB">
+  <meta property="fediverse:creator" content="@atomicpixie@mastodon.social" >
+</head>
+
+<body>
+  <header><!-- site nav / back-to-home link --></header>
+
+  <main>
+    <article>
+      <div class="inner">
+        <section class="hero">
+            <h1>Captain's Log</h1>
+            <p class="subtitle">365 days of micro projects to turn my Github green.</p>
+        </section>
+        <section class="log-main" id="log-main">    
+        </section> 
+      </div>
+    </article>
+  </main>
+
+  <footer><!-- site footer / colophon link --></footer>
+  <script src="log.js"></script>
+  <script src="../projects/projects.js"></script>
+  <script src="../global-scripts/app.js"></script>
+  <script>
+    const logMain = document.getElementById('log-main');
+    logMain.innerHTML = mainElement;
+  </script>
+</body>
+</html>

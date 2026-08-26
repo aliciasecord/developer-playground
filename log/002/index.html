@@ -81,7 +81,7 @@
         </section>      
         <aside class="size-1-3">
           <h2>Recent Logs</h2>
-          <div class="log" id="log-home">
+          <div class="log" id="log-side">
           </div>
         </aside>
       <section class="article-footer" id="article-footer">
@@ -94,5 +94,9 @@
   <footer><!-- site footer / colophon link --></footer>
   <script src="../log.js"></script>
   <script src="../../global-scripts/app.js"></script>
+  <script>
+    const logSide = document.getElementById('log-side');
+    logSide.innerHTML = recentElement;
+  </script>
 </body>
 </html>

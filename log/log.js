@@ -1,7 +1,6 @@
 ﻿const logs = [
-  { id: "002", day: 2, date: "Aug. 23, 2026", weekday: "Sunday", title: "And so it begins", path: "/developer-playground/log/002", status: "live", tags: [] },
-  { id: "003", day: 3, date: "Aug. 24, 2026", weekday: "Monday", title: "Boilerplate daydreams", path: "/developer-playground/log/003", status: "live", tags: [] },
-  { id: "004", day: 4, date: "", weekday: "", title: "", path: "", status: "planned", tags: [], commits: 0 },
+  { id: "002", day: 2, date: "Aug. 23, 2026", weekday: "Sunday", title: "And so it begins", path: "/developer-playground/log/002", status: "live", description: "I don't remember exactly how I decided to kick off this year-long project to get a fully green GitHub bar, but I'm certain it would be stretching things to say it was a result of eating a paillard of veal served on a bed of wilted radiccio.", tags: [] },
+  { id: "004", day: 4, date: "Aug. 25, 2026", weekday: "Tuesday", title: "Mobile schmobile", path: "/developer-playground/log/004", status: "live", description: "In which I learn that even small progress is, in fact, forward movement.", tags: [] },
   { id: "005", day: 5, date: "", weekday: "", title: "", path: "", status: "planned", tags: [], commits: 0 },
   { id: "006", day: 6, date: "", weekday: "", title: "", path: "", status: "planned", tags: [], commits: 0 },
   { id: "007", day: 7, date: "", weekday: "", title: "", path: "", status: "planned", tags: [], commits: 0 },
@@ -364,3 +363,42 @@
   { id: "364", day: 364, date: "", weekday: "", title: "", path: "", status: "planned", tags: [], commits: 0 },
   { id: "365", day: 365, date: "", weekday: "", title: "", path: "", status: "planned", tags: [], commits: 0 },
 ];
+
+const liveLogs = logs
+  .filter((log) => log.status === 'live')
+  .sort((a, b) => b.day - a.day);
+
+const recentLiveLogs = liveLogs
+  .slice(0, 5);
+
+const mainElement = `
+  <ul class="log-list">
+    ${liveLogs
+      .map(
+        (log) => `
+      <li>
+        <h2><a href="${log.path}">${log.title}</a></h3>
+        <p><time class="log-date">DAY ${log.id} | ${log.date}</time></p>
+        <p>${log.description}</p>
+        <p><a class="btn btn-primary btn-small" href="${log.path}">Read the log</a></p>
+      </li>
+    `
+      )
+      .join('')}
+  </ul>
+`;
+
+const recentElement = `
+  <ul class="log-list">
+    ${recentLiveLogs
+      .map(
+        (l) => `
+      <li>
+        <h3><a href="${l.path}">${l.title}</a></h3>
+        <p><time class="log-date">DAY ${l.id} | ${l.date}</time></p>
+      </li>
+    `
+      )
+      .join('')}
+  </ul>
+`;

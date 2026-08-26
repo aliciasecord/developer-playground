@@ -240,6 +240,13 @@ p:has(.btn) {
     margin: 2rem 0;
 }
 
+p:has(.btn-small) {
+    margin: 1rem 0;
+}
+p:has(time, small) {
+    margin: 0.5rem 0;
+}
+
 /*
 blockquote {
 }
@@ -331,10 +338,12 @@ cite {
 q {
 }
 
-time {
-}
-
 */
+
+time {
+    font-size: 0.8em;
+    color: var(--text-muted);
+}
 
 /* Forms */
 
@@ -387,6 +396,11 @@ button:hover, button:focus {
 
 .btn-primary::is(:hover, :focus) {
     background: var(--accent-hover);
+}
+
+.btn-small {
+    font-size: 0.8em;
+    padding: 0.5rem 1rem;
 }
 
 .btn.btn-nav {
