@@ -64,5 +64,5 @@ https://css-tricks.com/snippets/css/a-guide-to-flexbox/
 - The initial README file. Edited heavily.  
 - A CSS file with every HTML element in it and ready to be styled
 - The functions for injecting the header, nav, footer into the HTML 
-- The functions to make the mobile nav work. I hate developing responsive navs but haven't figured out what to do instead.
+- The functions to make the mobile nav work. I got tripped up halfway through.
 - The functions to make the theme detection work. 

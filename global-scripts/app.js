@@ -8,8 +8,9 @@ header.innerHTML = `
     <a href="/developer-playground" class="brand">Developer<br>Playground</a>
     <ul id="nav-menu">
       <li><a href="/developer-playground">Home</a></li>
+      <li><a href="/developer-playground/projects">Projects</a></li>
+      <li><a href="/developer-playground/log">Log</a></li>
       <li><a href="/developer-playground/about">About</a></li>
-      <li><a href="/developer-playground#projects">Projects</a></li>
     </ul>
     <button id="theme-toggle" class="btn btn-nav" type="button" aria-label="Toggle light/dark mode">🌓</button>
   </nav>

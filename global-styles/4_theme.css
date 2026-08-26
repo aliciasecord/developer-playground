@@ -125,11 +125,12 @@ aside ul :is(a:hover, a:focus) {
 }
 
 aside h3 {
-    margin: 0.5rem 0;
+    margin: 0.5rem 0 0;
 }
 
 aside p {
     font-size: 0.8em;
+    margin: 0;
 }
 
 .inner {
@@ -217,10 +218,12 @@ h2 {
 
 h3 {
 }
-
+*/
 h4 {
+    font-weight: 700;
+    margin: 0 0 0.5rem;
 }
-
+/*
 h5 {
 }
 
@@ -244,7 +247,7 @@ p:has(.btn-small) {
     margin: 1rem 0;
 }
 p:has(time, small) {
-    margin: 0.5rem 0;
+    margin: 0 0 0.5rem;
 }
 
 /*
@@ -259,10 +262,11 @@ ul {
 
 ol {
 }
-
+*/
 li {
+    margin: 0.5rem 0;
 }
-
+/*
 dl {
 }
 
@@ -281,17 +285,13 @@ hr {
 /* Inline text */
 
 
-a {
+a, a.visited {
     color: var(--accent);
 }
 
-a:hover, a:focus {
-    color: var(--accent-hover);
+a:hover, a:focus, a:visited:hover, a:visited:focus {
+    color: var(--text);
 
-}
-
-a:visited {
-    color: var(--accent-hover)
 }
 
 /*

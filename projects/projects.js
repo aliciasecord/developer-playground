@@ -1,11 +1,11 @@
 ﻿const projects = [
-  { id: "001", number: 1, title: "Project Landing Page", description: "Still in progress.", category: "Webpage", week: 1, path: "/developer-playground/projects/001-landing-page", status: "in-progress", commits: 12 },
-  { id: "002", number: 2, title: "Rock Paper Scissors Lizard Spock", category: "Game", week: 2, path: "/developer-playground", status: "planned", tags: [], commits: 0 },
-  { id: "003", number: 3, title: "Testing #3", category: "Game", week: 2, path: "", status: "planned", tags: [], commits: 0 },
-  { id: "004", number: 4, title: "Four four four", category: "", week: false, path: "", status: "planned", tags: [], commits: 0 },
-  { id: "005", number: 5, title: "", category: "", week: false, path: "", status: "planned", tags: [], commits: 0 },
-  { id: "006", number: 6, title: "", category: "", week: false, path: "", status: "planned", tags: [], commits: 0 },
-  { id: "007", number: 7, title: "", category: "", week: false, path: "", status: "planned", tags: [], commits: 0 },
+  { id: "001", number: 1, title: "Landing Page", description: "This ended up spiraling into 5 days of building and taught me a lot about the role of planning and designing AHEAD of building.", category: "Webpage", week: 1, path: "/developer-playground/projects/001-landing-page", status: "in-progress", commits: 12 },
+  { id: "002", number: 2, title: "Project Scaffolding", category: "IDK", week: 1, path: "/developer-playground/projects/002-project-scaffolding", status: "live", tags: [], commits: 0 },
+  { id: "003", number: 3, title: "About Page", category: "Webpage", week: 2, path: "/developer-playground/projects/003-about-page", status: "live", tags: [], commits: 0 },
+  { id: "004", number: 4, title: "Dark Mode", category: "CSS Theme", week: false, path: "", status: "planned", tags: [], commits: 0 },
+  { id: "005", number: 5, title: "Print Stylesheet", category: "CSS Theme", week: false, path: "", status: "planned", tags: [], commits: 0 },
+  { id: "006", number: 6, title: "404 error page", category: "Webpage", week: false, path: "", status: "planned", tags: [], commits: 0 },
+  { id: "007", number: 7, title: "Rock. Paper. Scissors. Lizard. Spock.", category: "Game", week: false, path: "", status: "planned", tags: [], commits: 0 },
   { id: "008", number: 8, title: "", category: "", week: false, path: "", status: "planned", tags: [], commits: 0 },
   { id: "009", number: 9, title: "", category: "", week: false, path: "", status: "planned", tags: [], commits: 0 },
   { id: "010", number: 10, title: "", category: "", week: false, path: "", status: "planned", tags: [], commits: 0 },
@@ -391,3 +391,20 @@ const recentProjectElement = recentProjects
     </article>
   `)
   .join('');
+
+const curriculumElement = `
+  <h2>Curriculum</h2>
+  <ul class="curriculum-list">
+    ${projects
+      .map(
+        (p) => `
+          <li>
+            <h3></h3>
+            <p>Project ${p.id} | ${p.category}</p>
+            <p class="bold"><a href="${p.path}">${p.title}</a></p>
+          </li>
+        `
+      )
+      .join('')}
+  </ul>
+`;

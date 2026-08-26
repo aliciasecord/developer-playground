@@ -1,7 +1,7 @@
 ﻿const logs = [
   { id: "002", day: 2, date: "Aug. 23, 2026", weekday: "Sunday", title: "And so it begins", path: "/developer-playground/log/002", status: "live", description: "I don't remember exactly how I decided to kick off this year-long project to get a fully green GitHub bar, but I'm certain it would be stretching things to say it was a result of eating a paillard of veal served on a bed of wilted radiccio.", tags: [] },
   { id: "004", day: 4, date: "Aug. 25, 2026", weekday: "Tuesday", title: "Mobile schmobile", path: "/developer-playground/log/004", status: "live", description: "In which I learn that even small progress is, in fact, forward movement.", tags: [] },
-  { id: "005", day: 5, date: "", weekday: "", title: "", path: "", status: "planned", tags: [], commits: 0 },
+  { id: "005", day: 5, date: "Aug. 26, 2026", weekday: "Wednesday", title: "Not for the Faint of Heart", path: "/developer-playground/005", status: "live", tags: [], commits: 2 },
   { id: "006", day: 6, date: "", weekday: "", title: "", path: "", status: "planned", tags: [], commits: 0 },
   { id: "007", day: 7, date: "", weekday: "", title: "", path: "", status: "planned", tags: [], commits: 0 },
   { id: "008", day: 8, date: "", weekday: "", title: "", path: "", status: "planned", tags: [], commits: 0 },
