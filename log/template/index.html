@@ -33,12 +33,19 @@
         <h1>TITLE</h1>
         <p class="subtitle">Day XXX | DAY | DATE, 2026</p>
       </section>
-      <section class="log">
-        <h2>Day XXX</h2>
-        <p></p> 
-        <h2>TO DO</h2>
-        <p></p>
-      </section>
+      <div class="flex-row">
+        <section class="log size-2-3">
+          <h2>Day XXX</h2>
+          <p></p> 
+          <h2>TO DO</h2>
+          <p></p>
+        </section>
+        <aside class="size-1-3">
+          <h2>Recent Logs</h2>
+          <div class="log" id="log-home">
+          </div>
+        </aside>
+      </div>
       <section class="article-footer" id="article-footer">
         <!-- tags, link to the live demo/repo folder, prev/next project -->
       </section>
@@ -47,6 +54,7 @@
   </main>
 
   <footer><!-- site footer / colophon link --></footer>
+  <script src="../log.js"></script>
   <script src="../../global-scripts/app.js"></script>
 </body>
 </html>

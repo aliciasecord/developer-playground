@@ -233,6 +233,7 @@ p {
     font-family: var(--sans);
     font-size: 1rem;
     margin: 0 0 1rem;
+    line-height: 1.5;
 }
 
 p:has(.btn) {
@@ -298,10 +299,14 @@ small {
 
 s {
 }
-
+*/
 code {
+    font-size: 0.8rem;
+    text-transform: uppercase;
+    color: var(--text-muted);
 }
 
+/*
 kbd {
 }
 

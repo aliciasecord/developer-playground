@@ -60,3 +60,26 @@ document.addEventListener('keydown', (e) => {
     navToggle.focus();
   }
 });
+
+
+const recentLogs = logs
+  .filter((l) => l.status === 'live')
+  .sort((a, b) => b.day - a.day)
+  .slice(0, 5);
+
+const logHome = document.getElementById('log-home');
+
+logHome.innerHTML = `
+  <ul class="log-list">
+    ${recentLogs
+      .map(
+        (l) => `
+      <li>
+        <h3><a href="${l.path}">${l.title}</a></h3>
+        <p><span class="log-date">${l.date}</span></p>
+      </li>
+    `
+      )
+      .join('')}
+  </ul>
+`;

@@ -34,52 +34,56 @@
         <h1>And So It Begins</h1>
         <p class="subtitle">Day 002 | Sunday | August 23, 2026</p>
       </section>
+      <div class="flex-row">
+        <section class="log size-2-3">
+          <p>I don't remember exactly how I decided to kick off this year-long project to get a fully green GitHub bar. But the first action item, at 11:07 p.m. on Friday, was to ask Claude:</p>
 
-      <section class="log">
-        <p>I don't remember exactly how I decided to kick off this year-long project to get a fully green GitHub bar. But the first action item, at 11:07 p.m. on Friday, was to ask Claude:</p>
+          <blockquote>
+            Give me 100 micro dev projects (HTML, CSS, and Javascript only) to keep my Github going. I want to code every day for a year. Each should be completeable in a single sitting or no more than a week.
+          </blockquote>
 
-        <blockquote>
-          Give me 100 micro dev projects (HTML, CSS, and Javascript only) to keep my Github going. I want to code every day for a year. Each should be completeable in a single sitting or no more than a week.
-        </blockquote>
+          <p>The next prompt was to expand the list to 365 projects. I refined that list a bit and then went to bed. I started on the actual project Saturday at noon.</p>
 
-        <p>The next prompt was to expand the list to 365 projects. I refined that list a bit and then went to bed. I started on the actual project Saturday at noon.</p>
+          <h2>Day 001</h2>
 
-        <h2>Day 001</h2>
+          <p>The first thing I did was ask Claude Code (I use the VS Code IDE) to create a game of Rock. Paper. Scissors. Lizard. Spock. It did the job. I didn't love the UI, but the thing worked. I didn't even have to explain the rules. At this point, I thought, great, I'll learn how to use Claude Code better as I do this, which will help things at work.</p>
 
-        <p>The first thing I did was ask Claude Code (I use the VS Code IDE) to create a game of Rock. Paper. Scissors. Lizard. Spock. It did the job. I didn't love the UI, but the thing worked. I didn't even have to explain the rules. At this point, I thought, great, I'll learn how to use Claude Code better as I do this, which will help things at work.</p>
+          <p>So then I asked Claude to create a landing page for the repo. I figured I would deploy to GitHub Pages and have a single spot where the micro-projects can be viewed. This decision led to me firing Claude. The UI looked fine, if generic, but I figured I could go in and edit the files to look the way I wanted. But when I got into the back-end, the code was overly verbose and disorganized. This had me going back and checking the JS for the game, and yep, same there. So I'll redo that one eventually.</p>
 
-        <p>So then I asked Claude to create a landing page for the repo. I figured I would deploy to GitHub Pages and have a single spot where the micro-projects can be viewed. This decision led to me firing Claude. The UI looked fine, if generic, but I figured I could go in and edit the files to look the way I wanted. But when I got into the back-end, the code was overly verbose and disorganized. This had me going back and checking the JS for the game, and yep, same there. So I'll redo that one eventually.</p>
+          <p>And look, I know that Skills exist. And for work, I will probably use this knowledge to dig more into how Skills operate. But when I'm coding for fun &hellip; not worth it to me.</p>
 
-        <p>And look, I know that Skills exist. And for work, I will probably use this knowledge to dig more into how Skills operate. But when I'm coding for fun &hellip; not worth it to me.</p>
+          <p>And that's what this is: Coding. For. Fun.</p>
 
-        <p>And that's what this is: Coding. For. Fun.</p>
+          <p>So I stopped using Claude, scrapped all the code it had written, and started over. I used Claude chat to help me narrow down the fonts I wanted. I landed on Recursive (a monospace font with interesting shapes) and Public Sans (the open source font that government websites use).</p>
 
-        <p>So I stopped using Claude, scrapped all the code it had written, and started over. I used Claude chat to help me narrow down the fonts I wanted. I landed on Recursive (a monospace font with interesting shapes) and Public Sans (the open source font that government websites use).</p>
+          <p>Then I coded, by hand, for nearly six hours, with breaks for food and unpacking. I decided to serve up the site header and footer across the project with the <code>app.js</code> file. The <code>theme.js</code> file detects system light or dark mode and is render-blocking.</p>
 
-        <p>Then I coded, by hand, for nearly six hours, with breaks for food and unpacking. I decided to serve up the site header and footer across the project with the <code>app.js</code> file. The <code>theme.js</code> file detects system light or dark mode and is render-blocking.</p>
+          <p>I also started noting, in <a href="https://github.com/aliciasecord/developer-playground/blob/main/resources/colophon.md" target="_blank">colophon.md</a>, everywhere Claude wrote something in this repo. The main thing it did on Day 001 was create a CSS file (<a href="https://github.com/aliciasecord/developer-playground/blob/main/global-styles/theme.css" target="_blank">theme.css</a>) with every HTML element in it, which I'm now using as my CSS boilerplate.</p>
 
-        <p>I also started noting, in <a href="https://github.com/aliciasecord/developer-playground/blob/main/resources/colophon.md" target="_blank">colophon.md</a>, everywhere Claude wrote something in this repo. The main thing it did on Day 001 was create a CSS file (<a href="https://github.com/aliciasecord/developer-playground/blob/main/global-styles/theme.css" target="_blank">theme.css</a>) with every HTML element in it, which I'm now using as my CSS boilerplate.</p>
+          <p>At 8:30 p.m., I shut things down and fell asleep to the end of Project Hail Mary on the TV, with music in my headphones.</p>
 
-        <p>At 8:30 p.m., I shut things down and fell asleep to the end of Project Hail Mary on the TV, with music in my headphones.</p>
+          <p>4 commits.</p>
 
-        <p>4 commits.</p>
+          <h2>Day 002</h2>
 
-        <h2>Day 002</h2>
+          <p>I worked on this for an hour before Mass, then a couple more hours Sunday evening. The header, hero, and footer for the landing page are finally done, and the navigation is responsive. Claude helped with that part — I wrote the JS for the mobile hamburger nav myself and asked it to check my work when it didn't fire correctly, and it edited that section of <a href="https://github.com/aliciasecord/developer-playground/blob/main/global-scripts/app.js" target="_blank">app.js</a>.</p>
 
-        <p>I worked on this for an hour before Mass, then a couple more hours Sunday evening. The header, hero, and footer for the landing page are finally done, and the navigation is responsive. Claude helped with that part — I wrote the JS for the mobile hamburger nav myself and asked it to check my work when it didn't fire correctly, and it edited that section of <a href="https://github.com/aliciasecord/developer-playground/blob/main/global-scripts/app.js" target="_blank">app.js</a>.</p>
+          <p>I don't know why I have such a hard time with JavaScript. Actually, I do. I just don't write it nearly as often as HTML and CSS, and it feels a little more loosey-goosey to write, in my opinion.</p>
 
-        <p>I don't know why I have such a hard time with JavaScript. Actually, I do. I just don't write it nearly as often as HTML and CSS, and it feels a little more loosey-goosey to write, in my opinion.</p>
+          <p>It finally occurred to me why I'd want to embed fonts into the CSS file, so I did that. Wasn't hard. I also started the boilerplate for project write-ups, including this log.</p>
 
-        <p>It finally occurred to me why I'd want to embed fonts into the CSS file, so I did that. Wasn't hard. I also started the boilerplate for project write-ups, including this log.</p>
+          <p>It made sense to me, as a web developer, to start this year-long project by building a webpage for it — if I'm going to create 365 micro-projects in one GitHub repo, shouldn't I deploy on GitHub Pages to share it with friends, with a landing page to link to each one? Well, yes. But also, this should not have been my first project. I realized that on Sunday night, having spent at least eight hours on this one "micro"-project. So I decided, at 10:40 p.m., to set an MVP for myself before starting each future project — a good reminder, from a project-management standpoint, to spend more time planning rather than jumping straight in.</p>
 
-        <p>It made sense to me, as a web developer, to start this year-long project by building a webpage for it — if I'm going to create 365 micro-projects in one GitHub repo, shouldn't I deploy on GitHub Pages to share it with friends, with a landing page to link to each one? Well, yes. But also, this should not have been my first project. I realized that on Sunday night, having spent at least eight hours on this one "micro"-project. So I decided, at 10:40 p.m., to set an MVP for myself before starting each future project — a good reminder, from a project-management standpoint, to spend more time planning rather than jumping straight in.</p>
+          <p>Basically, the coding goes faster when the UX work happens first. Since I'm my only user, I'll assume my own needs are paramount in the design, but accessibility still matters most of all, since I'm trying to get more fluent in WCAG standards. That's another thing I'm learning here that carries over directly to work.</p>
 
-        <p>Basically, the coding goes faster when the UX work happens first. Since I'm my only user, I'll assume my own needs are paramount in the design, but accessibility still matters most of all, since I'm trying to get more fluent in WCAG standards. That's another thing I'm learning here that carries over directly to work.</p>
+          <p>5 commits today.</p>
 
-        <p>5 commits today.</p>
-
-      </section>      
-
+        </section>      
+        <aside class="size-1-3">
+          <h2>Recent Logs</h2>
+          <div class="log" id="log-home">
+          </div>
+        </aside>
       <section class="article-footer" id="article-footer">
         <!-- tags, link to the live demo/repo folder, prev/next project -->
       </section>
@@ -88,6 +92,7 @@
   </main>
 
   <footer><!-- site footer / colophon link --></footer>
+  <script src="../log.js"></script>
   <script src="../../global-scripts/app.js"></script>
 </body>
 </html>
