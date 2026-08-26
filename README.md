@@ -15,7 +15,7 @@ Planning happens weekly, every Sunday: pick the upcoming week's builds, and log 
 - [x] Day 001 — Project landing page. Write the landing page (header, nav, main, footer) in light mode. All but main should be served by app.js. Main on the landing page will be completed later this week.
 - [x] Day 002 — Project landing page continued. - Finished the hero of the landing page at all breakpoints and the mobile nav.
 - [x] Day 003 — Project scaffolding: create boilerplate for various page types. 
-- [ ] Day 004 — Main for the landing page: Card style and masonry layout. 
+- [x] Day 004 — Main for the landing page: Card style and masonry layout. 
 - [ ] Day 005 — Main for the landing page: Simple FAQ widget.
 - [ ] Day 006 — Write about landing page choices on Project 1 page. Also write a style guide? 
 ### Project 2: Dark Mode for the project. (TYPE: CSS THEME)
@@ -61,6 +61,5 @@ HOME
   | - LOG
     | - template
     | - **365** day log folders
-  | - 
   | - SEARCH?
 404

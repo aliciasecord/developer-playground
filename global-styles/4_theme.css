@@ -98,9 +98,13 @@ article {
 }
 
 aside {
+    width: 33%;
+
+}
+
+aside div {
     background: color-mix(in srgb, var(--accent-inverse) 25%);
     color: var(text);
-    width: 33%;
     padding: 1.5rem;
     border-radius: var(--radius);
 }
@@ -184,6 +188,9 @@ aside p {
     nav ul li :is(a, a:visited) {height: auto; display: block; color: var(--accent-inverse); }
     nav ul li a:hover {color: var(--text); background: var(--accent-inverse);}
     header {height: auto;}
+    .flex-row { flex-wrap: wrap;}
+    .card {width: 100%;}
+    aside {width: 100%;}
 }
 
 @media (width < 576px) {
