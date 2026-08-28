@@ -1,8 +1,9 @@
 @import url('https://fonts.googleapis.com/css2?family=Public+Sans:ital,wght@0,100..900;1,100..900&family=Recursive:wght@300..1000&display=swap');
 @import url(global-styles/1_modern-normalize.css) layer(reset);
-@import url(global-styles/2_tokens.css) layer(tokens);
-@import url(global-styles/3_utilities.css) layer(utilities);
-@import url(global-styles/4_theme.css) layer(theme);
-@import url(global-styles/5_patterns.css) layer(patterns);
+@import url(global-styles/2_atomic.css) layer(atomic);
+@import url(global-styles/3_semantic.css) layer(semantic);
+@import url(global-styles/4_utilities.css) layer(utilities);
+@import url(global-styles/5_theme.css) layer(theme);
+@import url(global-styles/6_patterns.css) layer(patterns);
 
-@layer patterns, theme, utilities, tokens, reset;
+@layer patterns, theme, utilities, semantic, atomic, reset;
